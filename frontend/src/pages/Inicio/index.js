@@ -4,7 +4,7 @@ import Header from '../../components/Header';
 
 import { Container, Main } from './styles';
 
-function Inicio() {
+export default function Inicio() {
   return (
     <>
     <Header />
@@ -18,4 +18,3 @@ function Inicio() {
   );
 }
 
-export default Inicio;

@@ -1,5 +1,6 @@
 exports.up = function(knex) {
   return knex.schema.createTable('history', function(table) {
+      table.increments('id').notNullable();
       table.integer('temperature').notNullable();
       table.timestamp('created_at')
         .defaultTo(knex.fn.now())

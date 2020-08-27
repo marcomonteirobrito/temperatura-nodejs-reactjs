@@ -1,16 +1,35 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { toast } from 'react-toastify';
 
+import api from '../../services/api';
 import Header from '../../components/Header';
 
-import { Container } from './styles';
+import { Container, Main } from './styles';
 
-function TemperaturaAtual() {
+export default function TemperaturaAtual() {
+  const [temperatura, setTemperatura] = useState('');
+
+  useEffect(() => {
+    api.get('temperatura-atual')
+      .then(response => {
+        toast.success('Temperatura aferida com sucesso');
+        setTemperatura(response.data);
+      }).catch(error => {
+        toast.error('Falha na busca da temperatura, tente novamente');
+      });
+  }, []);
+
+  function handleSubmit() {}
   return (
-    <Container>
+    <>
       <Header />
-      <h1>TemperaturaAtual</h1>
-    </Container>
+      <Container>
+        <Main>
+          <button onClick={handleSubmit}>Verificar temperatura atual</button>
+          
+        </Main>
+      </Container>
+    </>
   );
 }
 
-export default TemperaturaAtual;

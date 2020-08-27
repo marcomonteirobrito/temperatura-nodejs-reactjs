@@ -4,7 +4,7 @@ import Header from '../../components/Header';
 
 import { Container } from './styles';
 
-function Alarme() {
+export default function Alarme() {
   return (
     <Container>
       <Header />
@@ -14,4 +14,3 @@ function Alarme() {
   );
 }
 
-export default Alarme;
