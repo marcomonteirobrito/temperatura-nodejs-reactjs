@@ -1,8 +1,9 @@
 import styled from 'styled-components';
-import { darken } from 'polished';
+import { lighten } from 'polished';
+
 
 export const Container = styled.div`
-  background: linear-gradient(150deg, #53f 15%, #05d5ff);
+  background: var(--color-header);
   height: 44px;
   width: 100%;
   display: flex;
@@ -30,7 +31,7 @@ export const Container = styled.div`
 
   nav a span {
     display: block;
-    color: orange;
+    color: var(--color-icon);
     width: 24px;
     height: 24px;
     display: flex;
@@ -41,11 +42,11 @@ export const Container = styled.div`
   nav a strong {
     padding: 10px;
     text-align: center;
-    color: orange;
+    color: var(--color-text-header);
   }
 
   nav a:hover {
-    background: ${darken(0.2, '#fff')};
+    background: ${lighten(0.07, '#0A122A')};
   }
 `;
 

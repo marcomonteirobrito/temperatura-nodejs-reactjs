@@ -9,10 +9,8 @@ export default function Inicio() {
     <>
     <Header />
     <Container>
-     <Main>
        <h1>Seja bem vindo!</h1>
        <p>Selecione no menu acima a opção desejada.</p>
-     </Main>
     </Container>
     </>
   );

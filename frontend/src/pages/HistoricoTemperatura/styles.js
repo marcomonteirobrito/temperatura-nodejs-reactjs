@@ -15,6 +15,7 @@ export const Main = styled.div`
   justify-content: center;
   flex-direction: column;
   width: 700px;
+  max-width: 800px;
   height: 100%;
   border-radius: 8px;
 
@@ -23,7 +24,8 @@ export const Main = styled.div`
     justify-content: space-between;
     padding: 5px;
     width: 400px;
-    background: red;
+    background: var(--color-header);
+    color: white;
     margin-top: 15px;
     border-radius: 8px;
   }

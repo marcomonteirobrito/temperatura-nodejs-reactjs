@@ -1,6 +1,6 @@
 exports.up = function(knex) {
   return knex.schema.createTable('alarm', function(table) {
-      table.integer('temperature').notNullable();
+      table.integer('newTemperatureAlarm').notNullable();
   });
 };
 
