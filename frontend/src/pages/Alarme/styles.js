@@ -58,6 +58,7 @@ export const UpdateAlarm = styled.div`
     margin-bottom: 20px;
     margin-top: 10px;
     font-size: 16px;
+    text-align: center;
   }
 
   button {

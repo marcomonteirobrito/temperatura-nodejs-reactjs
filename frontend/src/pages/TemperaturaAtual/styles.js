@@ -48,7 +48,7 @@ export const Status = styled.div`
     } else if (props.status == 'OK') {
       return 'green';
     } else {
-      return 'white';
+      return '';
     }
   }};
   display: flex;

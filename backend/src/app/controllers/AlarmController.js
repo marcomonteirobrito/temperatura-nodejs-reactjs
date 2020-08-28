@@ -21,7 +21,6 @@ class AlarmController {
 
   async update (request, response) {
     const { newTemperatureAlarm } = request.body;
-    console.log(newTemperatureAlarm)
     await connection('alarm').update({
       newTemperatureAlarm
     });

@@ -9,7 +9,6 @@ import { Container, Main, Button, Temperature, Status } from './styles';
 
 export default function TemperaturaAtual() {
   const [currentTemperature, setCurrentTemperature] = useState('');
-  const [status, setStatus] = useState('');
 
   async function handleGetTemperature(event) {
     event.preventDefault();
@@ -18,7 +17,6 @@ export default function TemperaturaAtual() {
       .then(response => {
         toast.success('Temperatura aferida com sucesso');
         setCurrentTemperature(response.data);
-        setStatus(response.data.status);
       }).catch(error => {
         toast.error('Falha na busca da temperatura, tente novamente');
       });
@@ -34,7 +32,7 @@ export default function TemperaturaAtual() {
               <span>{currentTemperature ? currentTemperature.temperature + '°' : ''}</span>
             </Temperature>
             
-            <Status status={status}>
+            <Status status={currentTemperature.status}>
               <label>Status</label>
               <span>{currentTemperature.status}</span>
             </Status>

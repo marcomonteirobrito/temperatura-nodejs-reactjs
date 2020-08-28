@@ -15,7 +15,7 @@ export default function Alarme() {
       .then(response => {
         setTemperatureAlarm(response.data[0].newTemperatureAlarm);
       }).catch(error => {
-        setTemperatureAlarm('Nenhum valor definido');
+        toast.error('Não foi possível buscar o valor definido');
       });
   }, []);
 
