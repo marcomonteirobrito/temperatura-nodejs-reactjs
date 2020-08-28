@@ -14,6 +14,8 @@ export default function Alarme() {
     api.get('temperatura-alarmes')
       .then(response => {
         setTemperatureAlarm(response.data[0].newTemperatureAlarm);
+      }).catch(error => {
+        setTemperatureAlarm('Nenhum valor definido');
       });
   }, []);
 
