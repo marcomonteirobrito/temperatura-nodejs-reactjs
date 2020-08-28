@@ -3,7 +3,7 @@
 
 ---
 
-Desafio para construção de um sistema de temperaturas. Leia README.md para detalhes do desafio.
+Desafio para construção de um sistema de temperaturas. Leia <a href='https://github.com/marcomonteirobrito/temperatura-nodejs-reactjs' target='_blank'>aqui</a> para detalhes do desafio.
 
 ## Telas aplicação web 
 
@@ -33,8 +33,10 @@ Execute o comando ```npm install``` na raiz da pasta do projeto frontend para in
 <img alt="npminstall" src="image/npminstall.PNG"> 
 </div>
 
-Após executado o código acima, execute o comando ```npm start``` na raiz do projeto.  
+Após executado o código acima, execute o comando ```npm start``` na raiz do projeto. 
+<div align="center" > 
 <img alt="npmstart" src="image/npmstart.PNG">
+</div>
 
 <h3>Obs*: Será executado na rota localhost:3000. </h3> 
 <h3>Obs**: Certifique-se que o backend está executando. </h3>
