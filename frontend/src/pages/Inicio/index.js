@@ -2,7 +2,7 @@ import React from 'react';
 
 import Header from '../../components/Header';
 
-import { Container, Main } from './styles';
+import { Container } from './styles';
 
 export default function Inicio() {
   return (

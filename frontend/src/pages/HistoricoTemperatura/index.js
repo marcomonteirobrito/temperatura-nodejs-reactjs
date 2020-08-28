@@ -8,7 +8,6 @@ import { Container, Main } from './styles';
 
 export default function HistoricoTemperatura() {
   const [historico, setHistorico] = useState([]);
-  const [status, setStatus] = useState('white');
 
   useEffect(() => {
     api.get('temperatura-historico')
@@ -16,16 +15,6 @@ export default function HistoricoTemperatura() {
         setHistorico(response.data);
       });
   }, []);
-
-  function colorStatus(statusVerify) {
-    if(statusVerify === 'Arriscado') {
-      setStatus('red');
-    } else if (statusVerify === 'Alerta') {
-      setStatus('yellow');
-    } else {
-      setStatus('green');
-    }
-  }
 
   return (
     <>

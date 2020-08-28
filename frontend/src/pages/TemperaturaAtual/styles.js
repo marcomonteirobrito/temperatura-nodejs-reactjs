@@ -43,9 +43,9 @@ export const Status = styled.div`
   background: ${props => {
     if(props.status === 'Arriscado') {
       return 'red';
-    } else if (props.status == 'Alerta') {
+    } else if (props.status === 'Alerta') {
       return 'yellow';
-    } else if (props.status == 'OK') {
+    } else if (props.status === 'OK') {
       return 'green';
     } else {
       return '';
