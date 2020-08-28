@@ -40,7 +40,17 @@ export const Temperature = styled.div`
 `;
 
 export const Status = styled.div`
-  background: ${props => props.status};
+  background: ${props => {
+    if(props.status === 'Arriscado') {
+      return 'red';
+    } else if (props.status == 'Alerta') {
+      return 'yellow';
+    } else if (props.status == 'OK') {
+      return 'green';
+    } else {
+      return 'white';
+    }
+  }};
   display: flex;
   align-items: center;
   justify-content: space-between;
