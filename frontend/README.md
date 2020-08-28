@@ -29,20 +29,22 @@ Desafio para construção de um sistema de temperaturas. Leia README.md para det
 ### Instalando aplicação frontend
 
 Execute o comando ```npm install``` na raiz da pasta do projeto frontend para instalar as dependências.  
+<div align="center" >
 <img alt="npminstall" src="image/npminstall.PNG"> 
+</div>
 
 Após executado o código acima, execute o comando ```npm start``` na raiz do projeto.  
 <div align="center" >
 <img alt="npmstart" src="image/npmstart.PNG">
 </div>
 
-<h2>Obs*: Será executado na rota localhost:3000. </h2> 
-<h2>Obs**: Certifique-se que o backend está executando. </h2>
+<h3>Obs*: Será executado na rota localhost:3000. </h3> 
+<h3>Obs**: Certifique-se que o backend está executando. </h3>
 
 <a href='https://github.com/marcomonteirobrito/temperatura-nodejs-reactjs/tree/master/backend' target='_blank'>Backend</a>
 
 <h1 align="center">
-    <img alt="" src="image/backendRUN.jpg">
+    <img alt="" src="image/backendRUN.PNG">
 </h1>
 
 Dúvidas entre em contato pelo <h4 align="center"> <a href="https://www.linkedin.com/in/marco-antonio-monteiro-de-brito-541ba0144/" target="_blank">Linkedin</a> </h4>
