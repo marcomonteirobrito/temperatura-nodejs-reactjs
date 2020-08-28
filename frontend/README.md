@@ -1,5 +1,5 @@
 
-<h3 align="center"> Frontend construído em <img src="imagens/react.png" alt="react" height="18"> ReactJS
+<h3 align="center"> Frontend construído em <img src="image/react.png" alt="react" height="18"> ReactJS
 
 ---
 
@@ -28,14 +28,16 @@ Desafio para construção de um sistema de temperaturas. Leia README.md para det
 
 ### Instalando aplicação frontend
 
-Execute o comando ```npm install``` na raiz da pasta do projeto frontend para instalar as dependências.
+Execute o comando ```npm install``` na raiz da pasta do projeto frontend para instalar as dependências.  
 <img alt="npminstall" src="image/npminstall.PNG"> 
 
-Após executado o código acima, execute o comando ```npm start``` na raiz do projeto.
+Após executado o código acima, execute o comando ```npm start``` na raiz do projeto.  
+<div align="center" >
 <img alt="npmstart" src="image/npmstart.PNG">
+</div>
 
-> Obs*: Será executado na rota localhost:3000.
-> Obs**: Certifique-se que o backend está executando.
+<h2>Obs*: Será executado na rota localhost:3000. </h2> 
+<h2>Obs**: Certifique-se que o backend está executando. </h2>
 
 <a href='https://github.com/marcomonteirobrito/temperatura-nodejs-reactjs/tree/master/backend' target='_blank'>Backend</a>
 
