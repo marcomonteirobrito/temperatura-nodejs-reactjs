@@ -34,9 +34,7 @@ Execute o comando ```npm install``` na raiz da pasta do projeto frontend para in
 </div>
 
 Após executado o código acima, execute o comando ```npm start``` na raiz do projeto.  
-<div align="center" >
 <img alt="npmstart" src="image/npmstart.PNG">
-</div>
 
 <h3>Obs*: Será executado na rota localhost:3000. </h3> 
 <h3>Obs**: Certifique-se que o backend está executando. </h3>
@@ -47,6 +45,6 @@ Após executado o código acima, execute o comando ```npm start``` na raiz do pr
     <img alt="" src="image/backendRUN.PNG">
 </h1>
 
-Dúvidas entre em contato pelo <h4 align="center"> <a href="https://www.linkedin.com/in/marco-antonio-monteiro-de-brito-541ba0144/" target="_blank">Linkedin</a> </h4>
+<h4>Dúvidas entre em contato pelo <a href="https://www.linkedin.com/in/marco-antonio-monteiro-de-brito-541ba0144/" target="_blank">Linkedin</a> </h4>
 
 <h4 align="center"> <em>&lt;/&gt;</em> by <a href="https://github.com/marcomonteirobrito" target="_blank">marcomonteirobrito</a> </h4>
